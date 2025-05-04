@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 
 # Load model
-model = joblib.load("realesta.sav")  # Pastikan file berada di folder yang sama
+model = load_model("real.h5") # Pastikan file berada di folder yang sama
 
 # Title
 st.title("Prediksi Harga Real Estate")
